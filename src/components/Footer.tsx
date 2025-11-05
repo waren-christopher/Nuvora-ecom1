@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
                 <span className="text-white font-bold text-xl">M</span>
               </div>
-              <span className="font-bold text-lg">Michael Digital Assets</span>
+              <span className="font-bold text-lg">Shiloh Digital</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Empowering you with financial and digital knowledge through professional training and consultancy.
@@ -88,7 +88,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Michael Digital Assets Pvt Ltd. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Shiloh Digital Pvt Ltd. All rights reserved.</p>
           <p className="mt-2">
             <Link to="/legal" className="hover:text-foreground transition-base">
               Privacy Policy & Terms

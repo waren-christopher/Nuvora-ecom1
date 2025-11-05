@@ -218,7 +218,7 @@ const Contact = () => {
               <CardContent className="p-8">
                 <h3 className="text-xl font-semibold mb-4">Company Information</h3>
                 <p className="text-muted-foreground mb-4">
-                  <strong>Michael Digital Assets Pvt Ltd</strong><br />
+                  <strong>Shiloh Digital Pvt Ltd</strong><br />
                   Registered Private Limited Company in India<br />
                   [Add complete registered address here]
                 </p>

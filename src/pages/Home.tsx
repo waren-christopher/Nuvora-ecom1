@@ -85,7 +85,7 @@ const Home = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="mb-6">About Michael Digital Assets</h2>
+            <h2 className="mb-6">About Shiloh Digital</h2>
             <p className="text-lg text-muted-foreground">
               Founded by <span className="font-semibold text-foreground">Michael Suresh</span>, a seasoned Trading Analyst and Digital Consultant. 
               We are a registered private limited firm in India, dedicated to helping individuals and businesses navigate trading, 

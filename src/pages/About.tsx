@@ -31,7 +31,7 @@ const About = () => {
       <section className="gradient-hero py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center animate-slide-up">
-            <h1 className="mb-6">About Michael Digital Assets</h1>
+            <h1 className="mb-6">About Shiloh Digital</h1>
             <p className="text-xl text-muted-foreground">
               A registered private limited firm dedicated to financial education and digital innovation
             </p>
@@ -60,7 +60,7 @@ const About = () => {
                       and digital transformation goals.
                     </p>
                     <p className="text-muted-foreground">
-                      As the founder of Michael Digital Assets Pvt Ltd, he combines deep market knowledge 
+                      As the founder of Shiloh Digital Pvt Ltd, he combines deep market knowledge 
                       with technical expertise to deliver comprehensive training and consultancy services 
                       that make a real difference.
                     </p>
@@ -76,7 +76,7 @@ const About = () => {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="mb-4">Michael Digital Assets Pvt Ltd</h2>
+            <h2 className="mb-4">Shiloh Digital Pvt Ltd</h2>
             <p className="text-lg text-muted-foreground">
               A legally registered private limited company in India, operating with full compliance 
               and transparency in all our services.

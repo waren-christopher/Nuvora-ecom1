@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
               <span className="text-white font-bold text-xl">M</span>
             </div>
-            <span className="font-bold text-lg hidden sm:inline">Michael Digital Assets</span>
+            <span className="font-bold text-lg hidden sm:inline">Shiloh Digital</span>
           </Link>
 
           {/* Desktop Navigation */}
