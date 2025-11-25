@@ -16,11 +16,6 @@ const Home = () => {
       description: "Build and manage your portfolio with expert advice",
     },
     {
-      icon: Layers,
-      title: "Blockchain Development",
-      description: "Custom blockchain and IT solutions for your business",
-    },
-    {
       icon: BarChart3,
       title: "Market Analytics",
       description: "Data-driven insights for informed decision making",
@@ -88,8 +83,8 @@ const Home = () => {
             <h2 className="mb-6">About Shiloh Digital</h2>
             <p className="text-lg text-muted-foreground">
               Founded by <span className="font-semibold text-foreground">Michael Suresh</span>, a seasoned Trading Analyst and Digital Consultant. 
-              We are a registered private limited firm in India, dedicated to helping individuals and businesses navigate trading, 
-              investment, and blockchain technology safely and legally.
+              We are a registered private limited firm in India, dedicated to helping individuals and businesses navigate trading 
+              investment safely and legally.
             </p>
           </div>
         </div>

@@ -5,22 +5,10 @@ import { Star, Quote } from "lucide-react";
 const Portfolio = () => {
   const projects = [
     {
-      title: "DeFi Trading Platform Development",
-      category: "Blockchain",
-      description: "Built a decentralized trading platform with smart contract integration for secure peer-to-peer cryptocurrency trading.",
-      tags: ["Solidity", "Web3", "React", "DeFi"],
-    },
-    {
       title: "E-commerce Analytics Dashboard",
       category: "Web Development",
       description: "Developed a comprehensive analytics dashboard for an e-commerce business to track sales, customer behavior, and inventory.",
       tags: ["React", "Node.js", "MongoDB", "Charts"],
-    },
-    {
-      title: "Crypto Portfolio Tracker",
-      category: "Blockchain",
-      description: "Created a real-time portfolio tracking application with price alerts and market analysis features.",
-      tags: ["React", "API Integration", "Real-time Data"],
     },
     {
       title: "Trading Bot Development",
@@ -41,12 +29,6 @@ const Portfolio = () => {
       name: "Priya Sharma",
       role: "Client - Investment Consultancy",
       content: "Professional, knowledgeable, and always available. The portfolio strategy Michael developed has significantly improved my investment returns.",
-      rating: 5,
-    },
-    {
-      name: "Tech Startup Founder",
-      role: "Client - Blockchain Development",
-      content: "Excellent work on our DeFi project. Michael delivered high-quality code and provided valuable insights throughout the development process.",
       rating: 5,
     },
   ];
@@ -71,7 +53,7 @@ const Portfolio = () => {
           <div className="text-center mb-12">
             <h2 className="mb-4">Recent Projects</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A selection of blockchain and web development projects we've delivered
+              A selection of web development projects we've delivered
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
@@ -116,7 +98,7 @@ const Portfolio = () => {
             {[
               { metric: "85%", label: "Students achieving profitability within 6 months" },
               { metric: "40%", label: "Average portfolio growth for consultancy clients" },
-              { metric: "50+", label: "Successful blockchain & web projects delivered" },
+              { metric: "50+", label: "Successful web projects delivered" },
             ].map((stat, index) => (
               <Card key={index} className="text-center shadow-custom-md">
                 <CardContent className="p-8">

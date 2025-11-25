@@ -52,7 +52,6 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Trading Training</li>
               <li>Investment Consultancy</li>
-              <li>Blockchain Development</li>
               <li>Market Analytics</li>
             </ul>
           </div>

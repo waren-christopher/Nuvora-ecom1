@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: Target,
       title: "Our Mission",
-      description: "To empower individuals and businesses with the knowledge and tools needed to succeed in trading, investment, and blockchain technology.",
+      description: "To empower individuals and businesses with the knowledge and tools needed to succeed in trading, investment.",
     },
     {
       icon: Eye,
@@ -55,7 +55,7 @@ const About = () => {
                     <h2 className="text-3xl font-bold">Michael Suresh</h2>
                     <p className="text-xl text-primary font-semibold">Trading Analyst & Digital Consultant</p>
                     <p className="text-muted-foreground">
-                      With over 5 years of experience in financial markets and blockchain technology, 
+                      With over 5 years of experience in financial markets, 
                       Michael Suresh has helped hundreds of individuals and businesses achieve their financial 
                       and digital transformation goals.
                     </p>
@@ -91,7 +91,7 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="mb-4">Our Mission & Values</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Helping individuals and businesses navigate trading, investment, and blockchain technology 
+              Helping individuals and businesses navigate trading, and investment 
               safely and legally
             </p>
           </div>

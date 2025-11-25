@@ -32,19 +32,6 @@ const Services = () => {
       color: "from-purple-500 to-pink-500",
     },
     {
-      icon: Layers,
-      title: "Blockchain / Web Development",
-      description: "Custom blockchain solutions and IT project development for businesses and startups",
-      features: [
-        "Smart contract development",
-        "DApp development",
-        "Website & web application development",
-        "Blockchain integration services",
-        "Technical consulting",
-      ],
-      color: "from-orange-500 to-red-500",
-    },
-    {
       icon: BarChart3,
       title: "Market Analytics & Research",
       description: "Data-driven market insights and research reports to support your investment decisions",
