@@ -27,7 +27,7 @@ const Legal = () => {
               </CardHeader>
               <CardContent className="space-y-4 text-muted-foreground">
                 <p>
-                  <strong className="text-foreground">Educational Services Only:</strong> Shiloh Digital Pvt Ltd 
+                  <strong className="text-foreground">Educational Services Only:</strong> Warenx Cashflow Pvt Ltd 
                   provides educational training and consultancy services related to trading, investment, and technology. 
                   We do not provide financial advice, investment recommendations, or facilitate any trading activities.
                 </p>
@@ -111,7 +111,7 @@ const Legal = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Services Description</h3>
                   <p>
-                    Shiloh Digital Pvt Ltd provides educational training programs, consultancy services, 
+                    Warenx Cashflow Pvt Ltd provides educational training programs, consultancy services, 
                     and technology development services. All services are provided "as is" without warranties of 
                     any kind.
                   </p>
@@ -128,7 +128,7 @@ const Legal = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Limitation of Liability</h3>
                   <p>
-                    Shiloh Digital Pvt Ltd shall not be liable for any indirect, incidental, special, 
+                    Warenx Cashflow Pvt Ltd shall not be liable for any indirect, incidental, special, 
                     consequential, or punitive damages resulting from your use of our services. Our total liability 
                     shall not exceed the amount you paid for the specific service in question.
                   </p>
@@ -155,7 +155,7 @@ const Legal = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Indian Regulations</h3>
                   <p>
-                    Shiloh Digital Pvt Ltd is a registered private limited company in India and operates 
+                    Warenx Cashflow Pvt Ltd is a registered private limited company in India and operates 
                     in full compliance with Indian laws and regulations, including but not limited to:
                   </p>
                   <ul className="list-disc list-inside space-y-1 ml-4 mt-2">
@@ -189,7 +189,7 @@ const Legal = () => {
                   legal matters, please reach out to:
                 </p>
                 <p className="font-semibold text-foreground">
-                  Shiloh Digital Pvt Ltd<br />
+                  Warenx Cashflow Pvt Ltd<br />
                   Email: legal@michaeldigitalassets.com<br />
                   [Add registered address here]
                 </p>

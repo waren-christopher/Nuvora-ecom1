@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
                 <span className="text-white font-bold text-xl">M</span>
               </div>
-              <span className="font-bold text-lg">Shiloh Digital</span>
+              <span className="font-bold text-lg">Warenx Cashflow</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Empowering you with financial and digital knowledge through professional training and consultancy.
@@ -62,8 +62,8 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-2">
                 <Mail className="h-4 w-4 mt-0.5 text-primary" />
-                <a href="mailto:contact@michaeldigitalassets.com" className="text-muted-foreground hover:text-foreground transition-base">
-                  contact@michaeldigitalassets.com
+                <a href="mailto:contact@michaelrajeshdigitalassets.com" className="text-muted-foreground hover:text-foreground transition-base">
+                  contact@michaelrajeshdigitalassets.com
                 </a>
               </li>
               <li className="flex items-start space-x-2">
@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Shiloh Digital Pvt Ltd. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Warenx Cashflow Pvt Ltd. All rights reserved.</p>
           <p className="mt-2">
             <Link to="/legal" className="hover:text-foreground transition-base">
               Privacy Policy & Terms

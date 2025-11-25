@@ -34,8 +34,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      content: "contact@michaeldigitalassets.com",
-      link: "mailto:contact@michaeldigitalassets.com",
+      content: "contact@michaelrajeshdigitalassets.com",
+      link: "mailto:contact@michaelrajeshdigitalassets.com",
     },
     {
       icon: Phone,
@@ -218,7 +218,7 @@ const Contact = () => {
               <CardContent className="p-8">
                 <h3 className="text-xl font-semibold mb-4">Company Information</h3>
                 <p className="text-muted-foreground mb-4">
-                  <strong>Shiloh Digital Pvt Ltd</strong><br />
+                  <strong>Warenx Cashflow Pvt Ltd</strong><br />
                   Registered Private Limited Company in India<br />
                   [Add complete registered address here]
                 </p>

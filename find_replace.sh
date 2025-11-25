@@ -1,8 +1,8 @@
 #!/bin/bash
-# Script to replace "Shiloh Digital" with "Michael cashflow"
+# Script to replace "Warenx Cashflow" with "Michael cashflow"
 
-search="Shiloh Digital"
-replace="Shiloh Digital"
+search="contact@michaelrajeshdigitalassets.com"
+replace="contact@michaelrajeshdigitalassets.com"
 
 # Find and replace in all files under current directory, excluding node_modules
 grep -ril "$search" . --exclude-dir=node_modules | while read -r file; do
