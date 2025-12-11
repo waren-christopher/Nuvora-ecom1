@@ -22,13 +22,13 @@ const Portfolio = () => {
     {
       name: "Rajesh Kumar",
       role: "Student - Trading Masterclass",
-      content: "Michael's training completely transformed my approach to trading. The practical insights and personalized mentorship helped me achieve consistent profits.",
+      content: "Christopher's training completely transformed my approach to trading. The practical insights and personalized mentorship helped me achieve consistent profits.",
       rating: 5,
     },
     {
       name: "Priya Sharma",
       role: "Client - Investment Consultancy",
-      content: "Professional, knowledgeable, and always available. The portfolio strategy Michael developed has significantly improved my investment returns.",
+      content: "Professional, knowledgeable, and always available. The portfolio strategy Christopher developed has significantly improved my investment returns.",
       rating: 5,
     },
   ];

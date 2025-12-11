@@ -31,9 +31,9 @@ const About = () => {
       <section className="gradient-hero py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center animate-slide-up">
-            <h1 className="mb-6">About Warenx Cashflow</h1>
+            <h1 className="mb-6">About Nuvora Ecom</h1>
             <p className="text-xl text-muted-foreground">
-              A registered private limited firm dedicated to financial education and digital innovation
+              A registered firm dedicated to financial education and digital innovation
             </p>
           </div>
         </div>
@@ -48,19 +48,19 @@ const About = () => {
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                   <div>
                     <div className="w-48 h-48 mx-auto rounded-full gradient-primary flex items-center justify-center text-white text-6xl font-bold shadow-glow">
-                      MS
+                      WC
                     </div>
                   </div>
                   <div className="space-y-4">
-                    <h2 className="text-3xl font-bold">Michael Rajesh</h2>
+                    <h2 className="text-3xl font-bold">Waren Christopher</h2>
                     <p className="text-xl text-primary font-semibold">Trading Analyst & Digital Consultant</p>
                     <p className="text-muted-foreground">
                       With over 5 years of experience in financial markets, 
-                      Michael Rajesh has helped hundreds of individuals and businesses achieve their financial 
+                      Waren Christopher has helped hundreds of individuals and businesses achieve their financial 
                       and digital transformation goals.
                     </p>
                     <p className="text-muted-foreground">
-                      As the founder of Warenx Cashflow Pvt Ltd, he combines deep market knowledge 
+                      As the founder of Nuvora Ecom, he combines deep market knowledge 
                       with technical expertise to deliver comprehensive training and consultancy services 
                       that make a real difference.
                     </p>
@@ -76,9 +76,9 @@ const About = () => {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="mb-4">Warenx Cashflow Pvt Ltd</h2>
+            <h2 className="mb-4">Nuvora Ecom</h2>
             <p className="text-lg text-muted-foreground">
-              A legally registered private limited company in India, operating with full compliance 
+              A legally registered company in India, operating with full compliance 
               and transparency in all our services.
             </p>
           </div>
@@ -138,7 +138,7 @@ const About = () => {
               <div className="p-6 bg-background rounded-lg shadow-custom-sm">
                 <h3 className="font-semibold mb-2 text-primary">Transparent Operations</h3>
                 <p className="text-muted-foreground">
-                  As a registered private limited company, we maintain complete transparency in our operations, 
+                  As a registered company, we maintain complete transparency in our operations, 
                   services, and pricing.
                 </p>
               </div>

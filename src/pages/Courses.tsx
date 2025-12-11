@@ -167,13 +167,13 @@ const Courses = () => {
             {[
               {
                 title: "Introduction to Crypto Trading",
-                date: "April 15, 2025",
+                date: "Dec 21, 2025",
                 time: "7:00 PM IST",
                 seats: "20 seats",
               },
               {
                 title: "Technical Analysis Workshop",
-                date: "April 22, 2025",
+                date: "Dec 27, 2025",
                 time: "6:00 PM IST",
                 seats: "15 seats",
               },

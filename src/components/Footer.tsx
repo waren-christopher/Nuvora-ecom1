@@ -10,9 +10,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
-                <span className="text-white font-bold text-xl">M</span>
+                <span className="text-white font-bold text-xl">N</span>
               </div>
-              <span className="font-bold text-lg">Warenx Cashflow</span>
+              <span className="font-bold text-lg">Nuvora Ecom</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Empowering you with financial and digital knowledge through professional training and consultancy.
@@ -50,7 +50,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Trading Training</li>
+              <li>Website creation & Digital Marketing</li>
               <li>Investment Consultancy</li>
               <li>Market Analytics</li>
             </ul>
@@ -63,12 +63,12 @@ const Footer = () => {
               <li className="flex items-start space-x-2">
                 <Mail className="h-4 w-4 mt-0.5 text-primary" />
                 <a href="mailto:contact@michaelrajeshdigitalassets.com" className="text-muted-foreground hover:text-foreground transition-base">
-                  contact@michaelrajeshdigitalassets.com
+                  nuvoraofficial8@gmail.com
                 </a>
               </li>
               <li className="flex items-start space-x-2">
                 <Phone className="h-4 w-4 mt-0.5 text-primary" />
-                <span className="text-muted-foreground">+91 XXXXX XXXXX</span>
+                <span className="text-muted-foreground">+91 9384366265</span>
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 mt-0.5 text-primary" />
@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Warenx Cashflow Pvt Ltd. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Nuvora Ecom. All rights reserved.</p>
           <p className="mt-2">
             <Link to="/legal" className="hover:text-foreground transition-base">
               Privacy Policy & Terms

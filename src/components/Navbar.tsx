@@ -25,9 +25,9 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
-              <span className="text-white font-bold text-xl">M</span>
+              <span className="text-white font-bold text-xl">N</span>
             </div>
-            <span className="font-bold text-lg hidden sm:inline">Warenx Cashflow</span>
+            <span className="font-bold text-lg hidden sm:inline">Nuvora Ecom</span>
           </Link>
 
           {/* Desktop Navigation */}

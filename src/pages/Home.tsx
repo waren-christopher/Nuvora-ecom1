@@ -7,8 +7,8 @@ const Home = () => {
   const features = [
     {
       icon: TrendingUp,
-      title: "Trading Training",
-      description: "Master stock and crypto markets with professional guidance",
+      title: "Website creation & Digital Marketing",
+      description: "Build a powerful online presence with expertly crafted websites and data-driven digital marketing strategies designed to grow your business",
     },
     {
       icon: Shield,
@@ -36,13 +36,13 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center animate-slide-up">
             <h1 className="mb-6">
-              Empowering You with{" "}
-              <span className="gradient-primary bg-clip-text text-transparent">
+              Empowering You with Financial and Digital Confidence
+              {/* <span className="gradient-primary bg-clip-text text-transparent">
                 Financial & Digital Knowledge
-              </span>
+              </span> */}
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Professional training, consultancy, and digital project support from Michael Rajesh
+              Professional training, consultancy, and digital project support from Waren Christopher
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact">
@@ -80,10 +80,10 @@ const Home = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="mb-6">About Warenx Cashflow</h2>
+            <h2 className="mb-6">About Nuvora Ecom</h2>
             <p className="text-lg text-muted-foreground">
-              Founded by <span className="font-semibold text-foreground">Michael Rajesh</span>, a seasoned Trading Analyst and Digital Consultant. 
-              We are a registered private limited firm in India, dedicated to helping individuals and businesses navigate trading 
+              Founded by <span className="font-semibold text-foreground">Waren Christopher</span>, a seasoned Trading Analyst and Digital Consultant. 
+              We are a registered company firm in India, dedicated to helping individuals and businesses navigate trading 
               investment safely and legally.
             </p>
           </div>

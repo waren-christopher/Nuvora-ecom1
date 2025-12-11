@@ -1,42 +1,101 @@
+/* App shell */
 #root {
-  max-width: 1280px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #1a1f3b 0%, #050713 55%, #020308 100%);
+  position: relative;
+  overflow-x: hidden;
 }
 
+/* Soft colored blobs like the hero background */
+#root::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 10% 20%, rgba(120, 90, 255, 0.25) 0%, transparent 55%),
+    radial-gradient(circle at 80% 80%, rgba(255, 92, 180, 0.22) 0%, transparent 55%),
+    radial-gradient(circle at 50% 0%, rgba(0, 200, 255, 0.16) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Logo */
 .logo {
   height: 6em;
   padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  will-change: filter, transform;
+  transition: all 0.35s ease;
+  border-radius: 1.25rem;
+  backdrop-filter: blur(18px);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.06), rgba(40, 40, 80, 0.3));
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.65);
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 30px rgba(130, 96, 255, 0.8));
+  transform: translateY(-4px) scale(1.04);
 }
+
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 32px rgba(255, 120, 190, 0.9));
+}
+
+/* Animations */
+@keyframes logo-float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(1deg); }
 }
 
 @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -300% 0; }
+  100% { background-position: 300% 0; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+    animation: logo-spin infinite 25s linear, logo-float infinite 5s ease-in-out;
   }
 }
 
+/* Glass cards like the tool tiles */
 .card {
-  padding: 2em;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  backdrop-filter: blur(18px);
+  background: radial-gradient(circle at top left, rgba(60, 70, 140, 0.9), rgba(18, 20, 45, 0.96));
+  border: 1px solid rgba(110, 125, 255, 0.35);
+  box-shadow:
+    0 16px 40px rgba(0, 0, 0, 0.85),
+    0 0 0 1px rgba(255, 255, 255, 0.02);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 26px 70px rgba(0, 0, 0, 0.9),
+    0 0 30px rgba(120, 100, 255, 0.7);
+  border-color: rgba(170, 190, 255, 0.9);
+}
+
+/* Subtitle / helper text with Sorare-like gradient shimmer */
 .read-the-docs {
-  color: #888;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #9fa9ff;
+  background: linear-gradient(90deg, #b9c3ff, #ff90d5, #7cf2ff);
+  background-size: 260% 100%;
+  animation: shimmer 5s linear infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

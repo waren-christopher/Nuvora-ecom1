@@ -34,14 +34,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      content: "contact@michaelrajeshdigitalassets.com",
+      content: "nuvoraofficial8@gmail.com",
       link: "mailto:contact@michaelrajeshdigitalassets.com",
     },
     {
       icon: Phone,
       title: "Phone",
-      content: "+91 XXXXX XXXXX",
-      link: "tel:+91XXXXXXXXXX",
+      content: "+91 9384362265",
+      link: "tel:+919384362265",
     },
     {
       icon: MapPin,
@@ -218,9 +218,10 @@ const Contact = () => {
               <CardContent className="p-8">
                 <h3 className="text-xl font-semibold mb-4">Company Information</h3>
                 <p className="text-muted-foreground mb-4">
-                  <strong>Warenx Cashflow Pvt Ltd</strong><br />
-                  Registered Private Limited Company in India<br />
-                  [Add complete registered address here]
+                  <strong>Nuvora Ecom</strong><br />
+                  Registered Company in India<br />
+                  No 4,second floor,ramalingamnagar first street,
+                  chennai 600107
                 </p>
                 <div className="border-t border-border pt-4 mt-4">
                   <h4 className="font-semibold mb-2 text-sm">Important Disclaimer</h4>

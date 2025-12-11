@@ -7,7 +7,7 @@ const Services = () => {
   const services = [
     {
       icon: TrendingUp,
-      title: "Stock & Crypto Trading Training",
+      title: "Stock & Crypto Trading Training & Web dev",
       description: "Comprehensive training programs covering technical analysis, risk management, and trading psychology",
       features: [
         "Live market analysis sessions",
@@ -15,6 +15,7 @@ const Services = () => {
         "Risk & money management",
         "Trading psychology workshops",
         "Real-time trade setups",
+        "Website creation and digital marketing"
       ],
       color: "from-blue-500 to-cyan-500",
     },
