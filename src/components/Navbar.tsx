@@ -23,11 +23,11 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
+          <Link to="/" className="flex items-center space-x-2 flex-wrap gap-2 flex-shrink-0">
+            <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center flex-shrink-0">
               <span className="text-white font-bold text-xl">N</span>
             </div>
-            <span className="font-bold text-lg hidden sm:inline">Nuvora Ecom</span>
+            <span className="font-bold text-lg whitespace-nowrap">Nuvora Ecom</span>
           </Link>
 
           {/* Desktop Navigation */}
