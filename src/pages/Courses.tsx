@@ -1,11 +1,24 @@
 import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+} from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
-import { BookOpen, Users, Clock, Award, Calendar, CheckCircle } from "lucide-react";
+import {
+  BookOpen,
+  Users,
+  Clock,
+  Award,
+  Calendar,
+  CheckCircle,
+} from "lucide-react";
 
 const Courses = () => {
   const [formData, setFormData] = useState({
@@ -15,7 +28,7 @@ const Courses = () => {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     toast.success("Request submitted! We'll contact you soon.");
     setFormData({ name: "", email: "", phone: "", message: "" });
@@ -28,7 +41,7 @@ const Courses = () => {
       type: "1-to-1 Mentorship",
       price: "₹25,000",
       features: [
-        "Basics of stock & crypto markets",
+        "Basics of stock markets",
         "Technical analysis fundamentals",
         "Chart reading & patterns",
         "Risk management strategies",
@@ -74,7 +87,8 @@ const Courses = () => {
           <div className="max-w-3xl mx-auto text-center animate-slide-up">
             <h1 className="mb-6">Courses & Mentorship</h1>
             <p className="text-xl text-muted-foreground">
-              Transform your trading and investment journey with personalized training programs
+              Transform your trading and investment journey with personalized
+              training programs
             </p>
           </div>
         </div>
@@ -93,10 +107,15 @@ const Courses = () => {
               <Card key={index} className="text-center shadow-custom-sm">
                 <CardContent className="p-6">
                   <stat.icon className="h-8 w-8 mx-auto mb-3 text-primary" />
-                  <div className="text-2xl font-bold gradient-primary bg-clip-text text-transparent mb-1">
+
+                  {/* ✅ FIXED NUMBER */}
+                  <div className="text-2xl font-bold text-primary mb-1">
                     {stat.value}
                   </div>
-                  <div className="text-sm text-muted-foreground">{stat.label}</div>
+
+                  <div className="text-sm text-muted-foreground">
+                    {stat.label}
+                  </div>
                 </CardContent>
               </Card>
             ))}
@@ -113,9 +132,10 @@ const Courses = () => {
               Choose the program that best fits your learning goals and schedule
             </p>
           </div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {programs.map((program, index) => (
-              <Card 
+              <Card
                 key={index}
                 className="shadow-custom-lg hover:shadow-glow transition-base animate-slide-up"
                 style={{ animationDelay: `${index * 100}ms` }}
@@ -130,20 +150,31 @@ const Courses = () => {
                       {program.duration}
                     </span>
                   </div>
-                  <CardTitle className="text-2xl">{program.title}</CardTitle>
+
+                  <CardTitle className="text-2xl">
+                    {program.title}
+                  </CardTitle>
+
                   <CardDescription>
-                    <span className="text-3xl font-bold text-primary">{program.price}</span>
+                    <span className="text-3xl font-bold text-primary">
+                      {program.price}
+                    </span>
                   </CardDescription>
                 </CardHeader>
+
                 <CardContent>
                   <ul className="space-y-3 mb-6">
                     {program.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-start text-sm">
+                      <li
+                        key={featureIndex}
+                        className="flex items-start text-sm"
+                      >
                         <CheckCircle className="h-4 w-4 text-primary mr-2 mt-0.5 flex-shrink-0" />
                         <span>{feature}</span>
                       </li>
                     ))}
                   </ul>
+
                   <Button className="w-full gradient-primary text-white">
                     Enroll Now
                   </Button>
@@ -163,10 +194,11 @@ const Courses = () => {
               Join our interactive group webinars and workshops
             </p>
           </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {[
               {
-                title: "Introduction to Crypto Trading",
+                title: "Introduction to Stock Trading",
                 date: "Dec 21, 2025",
                 time: "7:00 PM IST",
                 seats: "20 seats",
@@ -186,11 +218,16 @@ const Courses = () => {
                       {session.seats}
                     </span>
                   </div>
-                  <h3 className="text-xl font-semibold mb-3">{session.title}</h3>
+
+                  <h3 className="text-xl font-semibold mb-3">
+                    {session.title}
+                  </h3>
+
                   <div className="space-y-2 text-sm text-muted-foreground mb-4">
                     <p>📅 {session.date}</p>
                     <p>🕐 {session.time}</p>
                   </div>
+
                   <Button variant="outline" className="w-full">
                     Register Now
                   </Button>
@@ -207,11 +244,15 @@ const Courses = () => {
           <div className="max-w-2xl mx-auto">
             <Card className="shadow-custom-lg">
               <CardHeader>
-                <CardTitle className="text-2xl">Book a Session</CardTitle>
+                <CardTitle className="text-2xl">
+                  Book a Session
+                </CardTitle>
                 <CardDescription>
-                  Fill out the form below and we'll get back to you within 24 hours
+                  Fill out the form below and we'll get back to you within 24
+                  hours
                 </CardDescription>
               </CardHeader>
+
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div>
@@ -219,41 +260,70 @@ const Courses = () => {
                     <Input
                       id="name"
                       value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                      onChange={(e) =>
+                        setFormData({
+                          ...formData,
+                          name: e.target.value,
+                        })
+                      }
                       required
                     />
                   </div>
+
                   <div>
                     <Label htmlFor="email">Email Address</Label>
                     <Input
                       id="email"
                       type="email"
                       value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      onChange={(e) =>
+                        setFormData({
+                          ...formData,
+                          email: e.target.value,
+                        })
+                      }
                       required
                     />
                   </div>
+
                   <div>
                     <Label htmlFor="phone">Phone Number</Label>
                     <Input
                       id="phone"
                       type="tel"
                       value={formData.phone}
-                      onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                      onChange={(e) =>
+                        setFormData({
+                          ...formData,
+                          phone: e.target.value,
+                        })
+                      }
                       required
                     />
                   </div>
+
                   <div>
-                    <Label htmlFor="message">Message / Preferred Course</Label>
+                    <Label htmlFor="message">
+                      Message / Preferred Course
+                    </Label>
                     <Textarea
                       id="message"
                       value={formData.message}
-                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                      onChange={(e) =>
+                        setFormData({
+                          ...formData,
+                          message: e.target.value,
+                        })
+                      }
                       rows={4}
                       placeholder="Tell us about your goals and which program interests you..."
                     />
                   </div>
-                  <Button type="submit" className="w-full gradient-primary text-white">
+
+                  <Button
+                    type="submit"
+                    className="w-full gradient-primary text-white"
+                  >
                     Submit Request
                   </Button>
                 </form>

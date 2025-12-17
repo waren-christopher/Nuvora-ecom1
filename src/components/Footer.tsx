@@ -9,8 +9,12 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
-                <span className="text-white font-bold text-xl">N</span>
+              <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center flex-shrink-0 overflow-hidden">
+                <img
+                  src="/WhatsApp Image 2025-12-17 at 5.39.23 PM.jpeg"
+                  alt="Nuvora Ecom Logo"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <span className="font-bold text-lg">Nuvora Ecom</span>
             </div>
